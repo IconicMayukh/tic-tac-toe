@@ -183,3 +183,50 @@ body{
 
 
 
+@media screen and (max-width: 640px){
+    .select-box{
+        width: 80%;
+        text-align: center;
+    }
+    .play-board{
+        width: 60%;
+    }
+    .play-area{
+        width: 100%;
+    }
+    .play-area section{
+        width: 100%;
+        display:  grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 5px;
+    }
+    .play-area section span{
+        width: 100%;
+        /* height: 200%; */
+    }
+    
+}
+
+@media screen and (max-width: 540px){
+    .options{
+        flex-direction: column;
+    }
+    .options .playerX{
+        margin-right: 0;
+    }
+    .options .playerO{
+        margin-left: 0;
+    }    
+    .options button{
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px 0;
+    }
+
+    .play-board{
+        width: 75%;
+    }
+    .result-box{
+        width: 80%;
+    }
+}
